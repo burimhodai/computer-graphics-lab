@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lab 4 - Robotic hand</title>
+  <style>
+    body { margin: 0; font: 14px sans-serif; }
+    canvas { display: block; }
+    p { position: absolute; top: 0; left: 10px; background: white; padding: 8px; }
+  </style>
+  <script type="importmap">
+    { "imports": {
+      "three": "https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.module.js",
+      "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/"
+    } }
+  </script>
+</head>
+<body>
+  <p>Shoulder: Q/A | Elbow: W/S | Wrist: E/D | Fingers: F curl / R straighten | Drag to orbit</p>
+  <script type="module" src="main.js"></script>
+</body>
+</html>
